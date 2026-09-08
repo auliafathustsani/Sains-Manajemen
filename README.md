@@ -7,7 +7,9 @@ Repository ini berisi 10 Expert Advisor (EA) untuk MetaTrader 5 yang dikembangka
 Pembuatan dan pengembangan kode MQL5 dilakukan dengan bantuan AI. Seluruh EA telah melalui tahap penyusunan kode, compile, backtest awal, optimasi parameter, dan backtest akhir menggunakan MT5 Strategy Tester.
 
 **Nama:** Aulia Fathus Tsani
-**NIU:** 534388
+
+**NIM:** 24/534388/PA/22661
+
 **Mata Kuliah:** Sains Manajemen
 
 ---
