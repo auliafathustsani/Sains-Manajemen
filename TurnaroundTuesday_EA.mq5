@@ -16,7 +16,7 @@
 CTrade trade;
 
 //------------------- INPUT (sama seperti versi awal) -------------------
-input double Lots               = 0.01;   // Lot size
+input double Lots               = 1.0;   // Lot size
 input int    OpenHour           = 20;     // Jam buka posisi (hari Senin)
 input int    CloseHour          = 20;     // Jam tutup posisi (hari Selasa)
 input int    StopLossPoints     = 0;      // Stop Loss (points), 0 = tanpa SL
