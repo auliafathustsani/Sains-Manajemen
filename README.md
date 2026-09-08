@@ -1,5 +1,3 @@
-# Sains-Manajemen
-
 # Project #1 — 10 Expert Advisor (EA) dengan Bantuan AI
 
 Repository ini berisi 10 Expert Advisor (EA) untuk MetaTrader 5 yang dikembangkan sebagai bagian dari tugas mata kuliah Sains Manajemen. Setiap EA menggunakan strategi trading yang berbeda dengan mengacu pada video tutorial YouTube.
