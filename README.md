@@ -75,24 +75,46 @@ EA ini menggunakan RSI untuk menentukan pembukaan posisi awal, kemudian menambah
 
 ## Konfigurasi Backtest
 
-Sebagian besar EA diuji menggunakan pengaturan yang sama agar hasilnya dapat dibandingkan.
+Konfigurasi pengujian dibedakan antara EA01 Turnaround Tuesday dan EA02–EA10 karena EA01 menggunakan instrumen dan ketentuan volume yang berbeda.
+
+### Konfigurasi EA01 Turnaround Tuesday
+
+| Pengaturan                | Nilai                               |
+| ------------------------- | ----------------------------------- |
+| Expert Advisor            | EA01 Turnaround Tuesday             |
+| Symbol                    | DE40                                |
+| Tester timeframe          | M1                                  |
+| Signal timeframe dalam EA | H1                                  |
+| Periode pengujian         | 8 September 2023 – 8 September 2026 |
+| Forward testing           | No                                  |
+| Initial deposit           | USD 10,000                          |
+| Fixed lot                 | 1.0                                 |
+| Final modelling           | Every Tick Based on Real Ticks      |
+| History quality           | 100%                                |
+| Visual mode               | Disabled                            |
+
+EA01 menggunakan lot 1.0 karena menyesuaikan batas minimum volume perdagangan pada symbol DE40. Walaupun pengujian dijalankan pada timeframe M1, pengambilan sinyal di dalam EA tetap menggunakan timeframe H1.
+
+### Konfigurasi EA02–EA10
 
 | Pengaturan             | Nilai                               |
 | ---------------------- | ----------------------------------- |
-| Platform               | MetaTrader 5                        |
-| Symbol utama           | EURUSD                              |
-| Pengecualian symbol    | EA01 menggunakan DE40               |
-| Timeframe utama        | H1                                  |
+| Symbol                 | EURUSD                              |
+| Tester timeframe       | H1                                  |
+| Signal timeframe       | H1                                  |
 | Periode pengujian      | 8 September 2023 – 8 September 2026 |
 | Forward testing        | No                                  |
+| Delay                  | Zero Latency, Ideal Execution       |
 | Initial deposit        | USD 10,000                          |
 | Leverage               | 1:100                               |
+| Fixed lot              | 0.01                                |
 | Final modelling        | Every Tick Based on Real Ticks      |
 | History quality        | 100%                                |
 | Visual mode            | Disabled                            |
+| Profit in pips         | Disabled                            |
 | Optimization criterion | Balance Max                         |
 
-Optimasi dilakukan menggunakan Fast Genetic Based Algorithm atau Slow Complete Algorithm, bergantung pada jumlah kombinasi parameter. Untuk mempercepat proses, tahap optimasi dapat menggunakan 1 Minute OHLC. Parameter terpilih kemudian diuji kembali menggunakan Every Tick Based on Real Ticks.
+Tahap optimasi dilakukan menggunakan Fast Genetic Based Algorithm atau Slow Complete Algorithm sesuai jumlah kombinasi parameter. Untuk mempercepat proses, optimasi dapat menggunakan 1 Minute OHLC. Kombinasi parameter terpilih kemudian diuji kembali menggunakan Every Tick Based on Real Ticks sebelum ditetapkan sebagai hasil akhir.
 
 ---
 
