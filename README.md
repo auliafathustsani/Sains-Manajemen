@@ -174,13 +174,13 @@ Peningkatan terbesar terjadi pada EA01 Turnaround Tuesday, yaitu sebesar USD 1,6
 ---
 ## Analisis Hasil
 
-Berdasarkan backtest akhir, seluruh EA memperoleh net profit positif. EA01 Turnaround Tuesday menghasilkan net profit tertinggi sebesar USD 1,648.86. Namun, EA tersebut juga memiliki equity drawdown paling tinggi, yaitu 12.53%.
+Berdasarkan hasil backtest akhir menggunakan Every Tick Based on Real Ticks, seluruh EA memperoleh net profit positif. EA01 Turnaround Tuesday menghasilkan net profit tertinggi sebesar USD 1,648.86. Namun, EA tersebut juga memiliki equity drawdown paling tinggi, yaitu 12.53%. Oleh karena itu, keuntungan yang tinggi pada EA01 juga disertai risiko yang lebih besar dibandingkan EA lainnya.
 
-EA10 RSI Grid menghasilkan net profit tertinggi kedua sebesar USD 520.84 dengan profit factor 1.50 dan equity drawdown 1.62%. Meskipun memperoleh hasil yang baik dalam backtest, strategi grid memiliki risiko ketika pasar bergerak kuat secara terus-menerus dalam satu arah.
+EA10 RSI Grid menghasilkan net profit tertinggi kedua sebesar USD 520.84, dengan profit factor 1.50 dan equity drawdown 1.62%. Meskipun menunjukkan hasil yang baik dalam backtest, strategi grid memiliki risiko ketika pasar bergerak kuat secara terus-menerus dalam satu arah karena posisi dapat terakumulasi dan meningkatkan potensi kerugian.
 
-EA09 Stochastic MA menunjukkan hasil yang cukup seimbang dengan net profit USD 225.62, profit factor 1.55, Sharpe ratio 1.56, dan equity drawdown 0.59%. Berdasarkan perbandingan profit factor, Sharpe ratio, dan drawdown, EA09 menjadi salah satu EA dengan performa paling stabil dalam pengujian ini.
+EA09 Stochastic MA menunjukkan hasil yang cukup seimbang dengan net profit USD 225.62, profit factor 1.55, Sharpe ratio 1.56, dan equity drawdown 0.59%. Berdasarkan kombinasi profit factor, Sharpe ratio, dan drawdown, EA09 menjadi salah satu EA dengan performa paling stabil dalam pengujian ini. Meskipun demikian, equity drawdown paling rendah secara keseluruhan dimiliki oleh EA02, yaitu 0.41%.
 
-EA03 MACD Crossover dan EA04 Donchian Channel masih menghasilkan keuntungan. Namun, profit factor kedua EA hanya sebesar 1.02 sehingga performanya tergolong marginal dan memerlukan pengujian lebih lanjut.
+EA03 MACD Crossover dan EA04 Donchian Channel masih menghasilkan keuntungan. Namun, profit factor kedua EA hanya sebesar 1.02 sehingga performanya tergolong marginal dan memerlukan pengujian lebih lanjut untuk memastikan ketahanannya pada periode dan kondisi pasar yang berbeda.
 
 ---
 
