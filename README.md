@@ -177,6 +177,7 @@ EAxx-Nama-Strategi/
 │   └── Backtest_After_Optimization_EAxx.png
 ├── src/
 │   └── EAxx_NamaStrategi.mq5
+│   └── EAxx_NamaStrategi.ex5
 └── README.md
 ```
 
