@@ -238,7 +238,7 @@ Tahapan optimasi yang dilakukan dalam project ini meliputi:
 4. Mengurutkan hasil optimasi berdasarkan nilai Result atau Balance Max.
 5. Memilih kombinasi parameter dengan mempertimbangkan profit, profit factor, jumlah transaksi, expected payoff, dan drawdown.
 6. Menguji kembali parameter terpilih menggunakan Every Tick Based on Real Ticks.
-7. Membandingkan hasil optimasi dengan hasil real ticks.
+7. Membandingkan hasil backtest sebelum optimasi dengan hasil pengujian akhir menggunakan Every Tick Based on Real Ticks.
 8. Menyimpan laporan dan screenshot hasil backtest akhir.
 
 Hasil optimasi menggunakan 1 Minute OHLC tidak langsung ditetapkan sebagai hasil final karena performanya dapat berubah ketika diuji menggunakan data tick yang lebih detail. Oleh karena itu, hasil final dalam repository ini berasal dari pengujian ulang menggunakan Every Tick Based on Real Ticks.
