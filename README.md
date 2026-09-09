@@ -137,7 +137,7 @@ Tahap optimasi dilakukan menggunakan Fast Genetic Based Algorithm atau Slow Comp
 
 ## Hasil Backtest Akhir
 
-| EA                            | Net Profit | Profit Factor | Total Trades | Equity Drawdown | Sharpe Ratio |
+| EA                            | Net Profit (USD) | Profit Factor | Total Trades | Equity Drawdown | Sharpe Ratio |
 | ----------------------------- | ---------: | ------------: | -----------: | --------------: | -----------: |
 | EA01 Turnaround Tuesday       |   1,648.86 |          1.30 |           64 |          12.53% |         1.96 |
 | EA02 Bollinger Bands          |      84.97 |          1.22 |          229 |           0.41% |         0.98 |
@@ -195,7 +195,7 @@ EAxx-Nama-Strategi/
 ├── screenshots/
 │   └── Backtest_After_Optimization_EAxx.png
 ├── src/
-│   └── EAxx_NamaStrategi.mq5
+│   ├── EAxx_NamaStrategi.mq5
 │   └── EAxx_NamaStrategi.ex5
 └── README.md
 ```
