@@ -141,7 +141,7 @@ Tahap optimasi dilakukan menggunakan Fast Genetic Based Algorithm atau Slow Comp
 | ----------------------------- | ---------: | ------------: | -----------: | --------------: | -----------: |
 | EA01 Turnaround Tuesday       |   1,648.86 |          1.30 |           64 |          12.53% |         1.96 |
 | EA02 Bollinger Bands          |      84.97 |          1.22 |          229 |           0.41% |         0.98 |
-| EA03 MACD Crossover           |      36.75 |          1.02 |        1,293 |           1.04% |            — |
+| EA03 MACD Crossover           |      36.75 |          1.02 |        1,293 |           1.04% |         0.17 |
 | EA04 Donchian Channel         |      15.95 |          1.02 |          434 |           1.50% |         0.07 |
 | EA05 RSI Reversal             |     147.39 |          1.17 |          345 |           0.61% |         0.79 |
 | EA06 Moving Average Crossover |      88.53 |          1.13 |          309 |           0.63% |         0.62 |
