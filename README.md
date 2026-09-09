@@ -151,7 +151,28 @@ Tahap optimasi dilakukan menggunakan Fast Genetic Based Algorithm atau Slow Comp
 | EA10 RSI Grid                 |     520.84 |          1.50 |          382 |           1.62% |         1.04 |
 
 ---
+## Perbandingan Sebelum dan Setelah Optimasi
 
+| EA | Strategi | Sebelum Optimasi | Setelah Optimasi | Perubahan | Hasil |
+|---|---|---:|---:|---:|---|
+| EA01 | Turnaround Tuesday | Belum tercatat | USD 1,648.86 | — | Final Profitable |
+| EA02 | Bollinger Bands | −USD 8.90 | USD 84.97 | +USD 93.87 | Meningkat |
+| EA03 | MACD Crossover | −USD 74.52 | USD 36.75 | +USD 111.27 | Meningkat |
+| EA04 | Donchian Channel | −USD 98.00 | USD 15.95 | +USD 113.95 | Meningkat |
+| EA05 | RSI Reversal | USD 96.88 | USD 147.39 | +USD 50.51 | Meningkat |
+| EA06 | Moving Average Crossover | −USD 49.58 | USD 88.53 | +USD 138.11 | Meningkat |
+| EA07 | Supertrend | −USD 115.30 | USD 101.92 | +USD 217.22 | Meningkat |
+| EA08 | Range Breakout | USD 9.73 | USD 112.67 | +USD 102.94 | Meningkat |
+| EA09 | Stochastic MA | USD 82.57 | USD 225.62 | +USD 143.05 | Meningkat |
+| EA10 | RSI Grid | USD 328.12 | USD 520.84 | +USD 192.72 | Meningkat |
+
+Berdasarkan perbandingan hasil backtest, proses optimasi berhasil meningkatkan net profit pada seluruh EA yang memiliki data sebelum dan setelah optimasi. EA02, EA03, EA04, EA06, dan EA07 awalnya menghasilkan net profit negatif, tetapi berubah menjadi positif setelah dilakukan optimasi parameter dan pengujian ulang menggunakan Every Tick Based on Real Ticks.
+
+Peningkatan terbesar terjadi pada EA07 Supertrend, yaitu sebesar USD 217.22, diikuti EA10 RSI Grid sebesar USD 192.72. EA05, EA08, EA09, dan EA10 sudah menghasilkan keuntungan sebelum optimasi, tetapi performanya masih mengalami peningkatan setelah parameter disesuaikan.
+
+Hasil sebelum optimasi EA01 Turnaround Tuesday belum dicantumkan karena nilai backtest awalnya belum tercatat dengan jelas. Hasil akhir EA01 tetap ditampilkan berdasarkan pengujian parameter terpilih menggunakan real ticks.
+
+---
 ## Analisis Hasil
 
 Berdasarkan backtest akhir, seluruh EA memperoleh net profit positif. EA01 Turnaround Tuesday menghasilkan net profit tertinggi sebesar USD 1,648.86. Namun, EA tersebut juga memiliki equity drawdown paling tinggi, yaitu 12.53%.
@@ -183,10 +204,10 @@ EAxx-Nama-Strategi/
 
 Keterangan:
 
-* `reports/` berisi laporan lengkap hasil backtest dalam format HTML dan PDF.
-* `screenshots/` berisi screenshot hasil backtest setelah optimasi.
-* `src/` berisi source code Expert Advisor dalam format MQL5.
-* `README.md` berisi penjelasan strategi, sumber video, parameter, dan hasil pengujian masing-masing EA.
+- `reports/` berisi laporan lengkap hasil backtest dalam format HTML dan PDF.
+- `screenshots/` berisi screenshot hasil backtest setelah optimasi.
+- `src/` berisi source code `.mq5` dan file hasil compile `.ex5`.
+- `README.md` berisi penjelasan strategi, sumber video, parameter, dan hasil pengujian masing-masing EA.
 
 ---
 
@@ -237,9 +258,10 @@ Hasil tersebut menunjukkan bahwa pemilihan Expert Advisor tidak cukup dilakukan 
 
 ## Referensi
 
-* [René Balke – BM Trading](https://www.youtube.com/@ReneBalke)
-* [MQL5 Documentation](https://www.mql5.com/en/docs)
-* Video referensi untuk setiap strategi tersedia pada tabel Daftar 10 Expert Advisor.
+- [René Balke – BM Trading](https://www.youtube.com/@ReneBalke)
+- Antovis Analytics – video referensi EA02, EA05, dan EA06 tersedia pada tabel Daftar 10 Expert Advisor.
+- [MQL5 Documentation](https://www.mql5.com/en/docs)
+- Video referensi setiap strategi tersedia pada tabel Daftar 10 Expert Advisor.
 
 ---
 
