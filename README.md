@@ -155,7 +155,7 @@ Tahap optimasi dilakukan menggunakan Fast Genetic Based Algorithm atau Slow Comp
 
 | EA | Strategi | Sebelum Optimasi | Setelah Optimasi | Perubahan | Hasil |
 |---|---|---:|---:|---:|---|
-| EA01 | Turnaround Tuesday | Belum tercatat | USD 1,648.86 | — | Final Profitable |
+| EA01 | Turnaround Tuesday | −USD 47.65 | USD 1,648.86 | +USD 1,696.51 | Meningkat |
 | EA02 | Bollinger Bands | −USD 8.90 | USD 84.97 | +USD 93.87 | Meningkat |
 | EA03 | MACD Crossover | −USD 74.52 | USD 36.75 | +USD 111.27 | Meningkat |
 | EA04 | Donchian Channel | −USD 98.00 | USD 15.95 | +USD 113.95 | Meningkat |
@@ -166,11 +166,9 @@ Tahap optimasi dilakukan menggunakan Fast Genetic Based Algorithm atau Slow Comp
 | EA09 | Stochastic MA | USD 82.57 | USD 225.62 | +USD 143.05 | Meningkat |
 | EA10 | RSI Grid | USD 328.12 | USD 520.84 | +USD 192.72 | Meningkat |
 
-Berdasarkan perbandingan hasil backtest, proses optimasi berhasil meningkatkan net profit pada seluruh EA yang memiliki data sebelum dan setelah optimasi. EA02, EA03, EA04, EA06, dan EA07 awalnya menghasilkan net profit negatif, tetapi berubah menjadi positif setelah dilakukan optimasi parameter dan pengujian ulang menggunakan Every Tick Based on Real Ticks.
+Berdasarkan perbandingan hasil backtest, proses optimasi berhasil meningkatkan net profit pada seluruh EA. EA01, EA02, EA03, EA04, EA06, dan EA07 awalnya menghasilkan net profit negatif, tetapi berubah menjadi positif setelah optimasi parameter dan pengujian ulang menggunakan *Every Tick Based on Real Ticks*. Sementara itu, EA05, EA08, EA09, dan EA10 sudah menghasilkan net profit positif sebelum optimasi dan mengalami peningkatan setelah parameter disesuaikan.
 
-Peningkatan terbesar terjadi pada EA07 Supertrend, yaitu sebesar USD 217.22, diikuti EA10 RSI Grid sebesar USD 192.72. EA05, EA08, EA09, dan EA10 sudah menghasilkan keuntungan sebelum optimasi, tetapi performanya masih mengalami peningkatan setelah parameter disesuaikan.
-
-Hasil sebelum optimasi EA01 Turnaround Tuesday belum dicantumkan karena nilai backtest awalnya belum tercatat dengan jelas. Hasil akhir EA01 tetap ditampilkan berdasarkan pengujian parameter terpilih menggunakan real ticks.
+Peningkatan terbesar terjadi pada EA01 Turnaround Tuesday, yaitu sebesar USD 1,696.51, dari −USD 47.65 menjadi USD 1,648.86. Peningkatan berikutnya terjadi pada EA07 Supertrend sebesar USD 217.22 dan EA10 RSI Grid sebesar USD 192.72. Hasil tersebut menunjukkan bahwa proses optimasi mampu memperbaiki performa seluruh EA, baik dengan mengubah hasil yang awalnya negatif menjadi positif maupun meningkatkan keuntungan pada EA yang sejak awal sudah profitable.
 
 ---
 ## Analisis Hasil
