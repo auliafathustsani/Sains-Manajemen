@@ -89,7 +89,8 @@ Konfigurasi pengujian dibedakan antara EA01 Turnaround Tuesday dan EA02–EA10 k
 | Forward testing           | No                                  |
 | Initial deposit           | USD 10,000                          |
 | Fixed lot                 | 1.0                                 |
-| Final modelling           | 94 m                                |
+| Delay                     | 94 m                                |
+| Final modelling           | Every Tick Based on Real Ticks      |
 | History quality           | 100%                                |
 | Visual mode               | Disabled                            |
 
